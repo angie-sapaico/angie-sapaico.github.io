@@ -1,0 +1,347 @@
+/* Resetear estilos por defecto del navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px;
+    background-color: #f9f3e3;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.proyecto {
+    margin-bottom: 30px;
+}
+
+.proyecto img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+
+ 
+  .image__principal {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%;
+    flex-shrink: 0;
+    box-sizing: border-box
+
+} 
+
+
+/*  */
+#sobre-mi p {
+    margin-bottom: 20px; }
+
+
+/* Estilos para el enlace */
+.linkedin-link {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 5px 10px; 
+    background-color: #0077B5; 
+    color: #fff; 
+    border-radius: 5px;
+
+}
+
+.linkedin-link:hover {
+    background-color: #005699;
+}
+
+/* Estilos para la imagen de la flecha */
+.linkedin-link img {
+    margin-left: 5px; 
+    height: 16px;
+}
+
+
+/* Estilos skills y hobbies*/
+.skills {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.skills__title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.skills__line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skills__box {
+    width: calc(15% - -1px); 
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.skills__box img {
+    max-width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.skills__name {
+    font-weight: bold;
+}
+
+
+/* hobbies */
+.hobbies__box {
+    width: calc(33.33% - 20px); 
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+/* ... formacion académica ... */
+
+.formacion {
+    background-color: #f9f3e3; 
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px;
+     display: flex; 
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.formacion__title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.formacion__line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.formacion__box {
+    width: calc(33.33% - 20px); 
+    padding: 20px;
+    background-color: #fff; 
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    justify-content: center; 
+    align-items: center; 
+    display: flex;
+    flex-direction: column;
+}
+
+.formacion__box img {
+    max-width: 200px;
+     height: auto;  
+     margin-bottom: 10px; 
+} 
+
+.formacion__degree {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333; 
+}
+
+.formacion__institution {
+    font-size: 16px;
+    color: #666; 
+}
+
+.formacion__date {
+    font-size: 14px;
+    color: #999; 
+}
+
+/* ... Estilos proyectos ... */
+
+.proyectos {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+.proyectos__title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.proyectos__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.proyecto {
+    flex: 0 0 calc(33.33% - 20px); 
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: center; 
+    align-items: center; 
+    display: flex;
+    flex-direction: column;
+}
+
+.proyecto img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.proyecto__title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.proyecto__description {
+    font-size: 16px;
+    color: #555;
+}
+
+
+/* ... Estilo formulario ... */
+
+.formcontato {
+    background-color: #f0f0f0;
+    padding: 40px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.formcontato__contacto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formcontato__esquerda {
+    flex: 1;
+}
+
+.formcontato__img {
+    max-width: 100%;
+    height: auto;
+}
+
+.formcontato__text {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.formcontato__title {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.formcontato__subtext {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.formcontato__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formcontato__input,
+.formcontato__textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formcontato__input[type="text"],
+.formcontato__input[type="email"],
+.formcontato__input[type="text"]::placeholder,
+.formcontato__textarea::placeholder {
+    font-size: 16px;
+}
+
+.formcontato__botao {
+    padding: 5px 5px;
+
+    background-color: #666; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.formcontato__botao:hover {
+    background-color: #555; 
+}

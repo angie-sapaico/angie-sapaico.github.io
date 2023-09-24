@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mi Portafolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#formacion">Formación</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="mailto:angie.sapaico@gmail.com">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="sobre-mi">
+        
+        <h2>Sobre Mí</h2>
+        <p>¡Hola! Soy Angie Sapaico, una desarrolladora web apasionada por la programación.</p>
+        
+        <a class="linkedin-link" href="https://www.linkedin.com/in/angie-sapaico-alberto-672722264/">
+            LinkedIn
+            <img src="assets/arrow.png" alt="Flecha">
+        </a>
+
+
+    </section> 
+
+    
+    <!-- Sección de Skills -->
+
+    <section class="skills" id="skills">
+        <h3 class="skills__title">Skills</h3>
+        <div class="skills__line">
+            <div class="skills__box">
+                <img src="assets/html.png" alt="HTML5">
+                <p class="skills__name">HTML 5</p>
+            </div>
+            <div class="skills__box">
+                <img src="assets/js_icon.png" alt="JavaScript">
+                <p class="skills__name">JavaScript</p>
+            </div>
+            <div class="skills__box">
+                <img src="assets/php_icon.png" alt="PHP">
+                <p class="skills__name">PHP</p>
+            </div>
+            <div class="skills__box">
+                <img src="assets/nodejs_icon.png" alt="Node.js">
+                <p class="skills__name">Node.js</p>
+            </div>
+            <div class="skills__box">
+                <img src="assets/react_icon.png" alt="React">
+                <p class="skills__name">React</p>
+            </div>
+            <div class="skills__box">
+                <img src="assets/css_icon.png" alt="CSS">
+                <p class="skills__name">CSS</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Sección de Hobbies -->
+    <section class="skills" id="hobbies">
+        <h3 class="skills__title">Hobbies</h3>
+            <div class="skills__line">
+                <div class="hobbies__box">
+                        <img src="assets\tv_icon.png">
+                        <p class="skills__name"> Ver series</p>
+                </div>
+                <div class="hobbies__box">
+
+                        <img src="assets\guitar_icon.png" alt="">
+                        <p class="skills__name">Tocar guitarra</p>
+                </div>
+                <div class="hobbies__box">
+                    <ul>
+                        <img src="assets\headphones_icon.png" alt="">
+                        <p class="skills__name">Oir música</p>
+                    </ul>
+                </div>
+            </div>
+    </section>
+
+<!-- ... formacion academica ... -->
+
+    <section class="formacion" id="formacion">
+        <h3 class="formacion__title">Formación Académica</h3>
+        <div class="formacion__line">
+            <div class="formacion__box">
+                <img src="assets/alura_logo.png" alt="alura">
+                <h4 class="formacion__degree">Front End Developer</h4>
+                <p class="formacion__institution">Alura + Oracle</p>
+                <p class="formacion__date">2023</p>
+            </div>
+            <div class="formacion__box">
+                <img src="assets/ucv1.jpg" alt="ucv">
+                <h4 class="formacion__degree">Ingeniería de Sistemas</h4>
+                <p class="formacion__institution">Universidad Cesar Vallejo</p>
+                <p class="formacion__date">2020 - En curso</p>
+            </div>
+            <div class="formacion__box">
+                <img src="assets/icpna1 (1).png" alt="icpna">
+                <h4 class="formacion__degree">Idioma Inglés</h4>
+                <p class="formacion__institution">Instituto Cultural Peruano Norteamericano</p>
+                <p class="formacion__date">2018 - 2020</p>
+            </div>
+        </div>
+    </section>
+
+<!-- ... Sección de Proyectos ... -->
+
+    <section class="proyectos" id="proyectos">
+        <h3 class="proyectos__title">Proyectos</h3>
+        <div class="proyectos__container">
+            <div class="proyecto">
+                <img src="assets/proyecto1.jpg" alt="Proyecto 1">
+                <h4 class="proyecto__title">App Home</h4>
+                <p class="proyecto__description">Prototipado con Figma y Desarrollado en Dart con Flutter</p>
+            </div>
+            <div class="proyecto">
+                <img src="assets/proyecto2.png" alt="Proyecto 2">
+                <h4 class="proyecto__title">Beemo</h4>
+                <p class="proyecto__description">Personaje Modelado en Cinema 4D</p>
+            </div>
+            <div class="proyecto">
+                <img src="assets/proyecto3.jpeg" alt="Proyecto 3">
+                <h4 class="proyecto__title">Character List</h4>
+                <p class="proyecto__description">Personajes en Realidad Aumentada Desarrollado en Unity con Vuforia</p>
+            </div>
+        </div>
+    </section>
+
+        <!-- Sección de Contacto -->
+
+
+        <section class="formacion" id="contacto">
+            <div class="formcontato__contacto">
+                <div class="formcontato__esquerda">
+                    <img class="formcontato__img" src="assets/contact_image.png" alt="Imagen de contacto">
+                </div>
+                <div class="formcontato__text">
+                    <h2 class="formcontato__title">Contacto</h2>
+                    <p class="formcontato__subtext">¿Quieres contactarme?</p>
+                    <p class="formcontato__subtext">Completa el siguiente formulario y me pondré en contacto contigo lo antes posible.</p>
+                    <form class="formcontato__form" name="form"  action="https://formsubmit.co/angie.sapaico@gmail.com" method="POST">
+                        <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre" required>
+                        <input class="formcontato__input" type="email" name="email" placeholder="E-mail" required>
+                        <input class="formcontato__input" type="text" name="asunto" placeholder="Asunto" required>
+                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensaje" name="mensaje" placeholder="Mensaje" required></textarea>
+                        <button type="submit" class="formcontato__botao">Enviar mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+    
+        
+    <footer>
+        <p>Desarrollado por Angie Sapaico</p>
+        <p>&copy; 2023</p>
+    </footer>
+
+</body>
+</html>
